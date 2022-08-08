@@ -1,0 +1,27 @@
+<nav class="menu">
+  <div class ="menu__inner">
+    <ul class="menu__list">
+      <li class="menu__item {{ 'menu__item--active' if tag == 'index' }}">
+        <a href="/">👋 </a>
+      </li>
+      <li class="menu__item {{ 'menu__item--active' if '/programming' in page.url }}">
+        <a href="/programming">
+          <span class="menu__item--mobile">🤖</span>
+          <span class="menu__item--desktop">Redefining programming</span>
+        </a>
+      </li>
+      <li class="menu__item {{ 'menu__item--active' if '/scalability' in page.url }}">
+        <a href="/scalability">
+          <span class="menu__item--mobile">🖥</span>
+          <span class="menu__item--desktop">Designing for scalability</span>
+        </a>
+      </li>
+      <li class="menu__item {{ 'menu__item--active' if '/self-services' in page.url }}">
+        <a href="/self-services">
+          <span class="menu__item--mobile">📦</span>
+          <span class="menu__item--desktop">Simplifying self-services</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,15 @@
+{% extends "layouts/base.html" %} 
+{% block content %}
+  <div class="wrapper gap-top-400">
+    <article class="project gap-top-500">
+      <span class="project__subtitle">{{subtitle}}</span>
+      <h1 class="text-800 md:text-900 lg:text-major">{{ title }}</h1>
+      <p class="project__description">{{ summary }}</p>
+      <p class="project__domain">Domain <br> {{ domain }}</p>
+      <p class="project__duration">Duration<br>{{ duration }}</p>
+      {{ content | safe }}
+    </article>
+  </div>
+{% include "partials/menu.html" %} 
+{% include "partials/footer.html" %} 
+{% endblock %}

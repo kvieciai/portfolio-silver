@@ -1,0 +1,18 @@
+{% extends "layouts/base.html" %} 
+{% block content %}
+  <div class="wrapper">
+    <article class="hero gap-top-500">
+      <h1 class="hero__title text-800 md:text-900 lg:text-major">
+        <em class="color-dark">{{ greeting }}</em><br>
+        {{ name }}
+      </h1>
+      <p class="hero__summary gap-top-400">{{ introduction }}</p>
+      <p class="hero__email gap-top-400">
+        <a class="external-link" href="mailto:{{ email }}">{{ email }}</a>
+      </p>
+    </article>
+  </div>
+{% include "partials/menu.html" %} 
+{% endblock %}
+
+

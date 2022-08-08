@@ -1,0 +1,65 @@
+// First up: config and functions
+@import 'config';
+
+// Next: pull in gorko for design tokens
+@import '../../node_modules/gorko/gorko.scss';
+
+// Don't forget to add the reset
+@import 'reset';
+
+// Global styles start
+:root {
+  --flow-space: #{get-size('400')};
+}
+
+body {
+  background: get-color('light-glare');
+  color: get-color('dark-shade');
+  line-height: 1.3;
+  font-size: get-size('400');
+
+  @include apply-utility('font', 'base');
+
+  @include media-query('md') {
+    font-size: get-size('500');
+  }
+
+  @include media-query('lg') {
+    font-size: get-size('600');
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @include apply-utility('font', 'sans');
+  @include apply-utility('leading', 'flat');
+  @include apply-utility('weight', 'bold');
+  letter-spacing: -0.2rem;
+}
+
+em {
+  font-style: normal;
+}
+
+a {
+  color: get-color('dark-shade');
+  text-decoration: none;
+  
+  &:hover {
+    color: get-color('dark');
+  }
+}
+
+// Import blocks
+@import 'blocks/hero';
+@import 'blocks/project';
+@import 'blocks/menu';
+@import 'blocks/footer';
+
+// Import utilities
+@import 'utilities/flow';
+@import 'utilities/radius';
+@import 'utilities/visually-hidden';
+@import 'utilities/wrapper';
