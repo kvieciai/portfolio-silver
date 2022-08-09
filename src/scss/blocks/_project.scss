@@ -8,6 +8,11 @@
     margin-bottom: 14rem;
   }
 
+  & > figure {
+    border-radius: get-size('300');
+    overflow: hidden;
+  }
+
   @include media-query('md') {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -22,6 +27,8 @@
       grid-column: 1 / -1;
       margin-top: get-size('900');
       margin-bottom: get-size('500');
+      // border radius
+      border-radius: get-size('400');
     }
     &__image {
       grid-column: 1 / -1;
@@ -53,6 +60,8 @@
       grid-column: 1 / -1;
       margin-top: get-size('900');
       margin-bottom: get-size('500');
+      // border radius
+      border-radius: get-size('500');
     }
 
     &__image {
