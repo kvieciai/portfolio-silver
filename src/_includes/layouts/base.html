@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.html" %}
-    <!-- Base critical CSS -->
+    <!-- Critical CSS -->
     <style>{% include "css/critical.css" %}</style>
     {# Add facility for pages to delare an array of critical styles #}
     {% if pageCriticalStyles %}
@@ -21,6 +21,14 @@
         <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
       {% endfor %}
     {% endif %}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XR4CFLGLW2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XR4CFLGLW2');
+    </script>
   </head>
   <body>
     <main tabindex="-1" id="main-content">{% block content %}{% endblock %}</main>
