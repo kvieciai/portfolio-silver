@@ -1,6 +1,6 @@
-{% extends "layouts/base.html" %} 
+{% extends "layouts/base.html" %}
 {% block content %}
-  <div class="wrapper gap-top-400">
+  <div class="wrapper content-container gap-top-400">
     <article class="project gap-top-500">
       <span class="project__subtitle">{{subtitle}}</span>
       <h1 class="text-800 md:text-900 lg:text-major">{{ title }}</h1>
@@ -10,6 +10,6 @@
       {{ content | safe }}
     </article>
   </div>
-{% include "partials/menu.html" %} 
 {% include "partials/footer.html" %} 
+{% include "partials/menu.html" %} 
 {% endblock %}
