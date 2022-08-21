@@ -3,8 +3,8 @@ subtitle: 'Sandvik'
 title: 'Redefining programming'
 summary: 'As part of the team at Sandvik, I helped to bring CNC machine programming experience to the multiple devices and platforms Sandvik customers use every day.'
 domain: 'Manufacturing'
-duration: '3 months'
-email: 'aleksandr.anciutin@gmail.com ↗'
+year: '2021'
+email: 'aleksandr.anciutin@gmail.com'
 metaDesc: 'Redefining programming'
 layout: 'layouts/project.html'
 ---
@@ -12,7 +12,7 @@ layout: 'layouts/project.html'
 {% image "./src/images/image-1.jpg", "photo of my cat" %}
 </figure>
 
-**Sandvik** is a global engineering company at the start of its digital transformation. Driven by the mission to improve industrial machining workflows — the company developed a touch-based, CNC machine programming solution.
+Sandvik is a global engineering company at the start of its digital transformation. Driven by the mission to improve industrial machining workflows — the company developed a **touch-based, CNC machine programming solution**.
 
 Following a soft-launch, the solution received a positive response from the industry’s early adopters. However, further market research revealed a large group of experts who didn’t have access to touch-based devices — they were first, and foremost desktop users.
 

@@ -4,7 +4,7 @@ title: 'Designing for scalability'
 summary: 'The product was developed with focus for rapid growth, and visual language has struggled to scale alongside. This had a major effect on UI components: making them inconsistent, redundant, and almost impossible to scale. We had to rethink visual language and UI elements to build something that could scale across multiple devices.'
 domain: 'Manufacturing'
 duration: '1 month'
-email: 'aleksandr.anciutin@gmail.com ↗'
+email: 'aleksandr.anciutin@gmail.com'
 metaDesc: 'Designing for scalability'
 layout: 'layouts/project.html'
 ---
