@@ -2,7 +2,7 @@
 subtitle: 'Born in idea'
 title: 'Simplifying self-services'
 summary: 'I joined the project as the UI Designer, and helped to build the user interface of their self-service parcel terminals. From colors, typography, and distinct illustration style to defining clear guidelines for the visual language — ensuring they could ensure the clarity and consistency of the experience moving forward.'
-domain: 'Logistics'
+domain: 'Postal services'
 year: '2018'
 email: 'aleksandr.anciutin@gmail.com'
 metaDesc: 'Simplifying self-services'

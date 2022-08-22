@@ -1,7 +1,7 @@
 ---
 subtitle: 'Sandvik'
 title: 'Designing for scalability'
-summary: 'The product was developed with focus for rapid growth, and visual language has struggled to scale alongside. This had a major effect on UI components: making them inconsistent, redundant, and almost impossible to scale. We had to rethink visual language and UI elements to build something that could scale across multiple devices.'
+summary: 'During my time at Sandvik, I helped to lay down the foundations of an ambitious product iteration by consolidating an assortment of inconsistent and redundant UI elements.'
 domain: 'Manufacturing'
 year: '2020'
 email: 'aleksandr.anciutin@gmail.com'
